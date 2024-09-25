@@ -3,6 +3,7 @@
     text-align: center;
     margin:0;
     padding:0;
+    scroll-behavior: smooth;
  }
  body{
     background-image: linear-gradient(to right, #a6a6a6 , #ffffff) ;
