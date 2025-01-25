@@ -12,16 +12,19 @@
     display: flex;
     justify-content: flex-start;
     position: fixed;
-    gap: 80px;
-    font-size: 40px;
+    gap: 50px;
+    font-size: 25px;
     font-weight: bolder;
     z-index: 2;
     background-image: linear-gradient(to right, #a6a6a6 , #ffffff) ;
     width: 100%;
-    height: 70px;
+    height: 55px;
+    margin-left: 25px;
 }
 .english{
     text-decoration: none;
+    position: relative;
+    top: 10px;
     color: black;
     background-image: none;
 }
@@ -106,78 +109,189 @@ a:hover{
     background-color: white;
     background-image: none;
     border-radius: 70px;
+    position: absolute;
+    top:-350px;
 }
 .robots{
     padding: 20px;
-    width: 260px;
+    width: 235px;
     background-color: black;
     background-image: none;
     border-radius: 70px;
-    margin-top:-40px;
+    position: absolute;
+    top: -350px;
 }
 .robot{
-    margin-top: 600px;
-    margin-left: 190px;
+    /* margin-top: 600px;
+    margin-left: 190px; */
+    position: absolute;
+    top: 615px;
+    left: 180px;
     background-image: none;
 }
 .tail{
+    /* padding: 20px;
+    width: 400px;
+    background-color: white;
+    background-image: none;
+    border-radius: 70px; */
     padding: 20px;
     width: 400px;
     background-color: white;
     background-image: none;
     border-radius: 70px;
+    position: absolute;
+    top:-350px;
 }
 .wind{
-    padding: 20px;
+    /* padding: 20px;
     width: 200px;
     background-color: black;
     background-image: none;
     border-radius: 70px;
-    margin-top:-40px;
+    margin-top:-40px; */
+    padding: 20px;
+    width: 175px;
+    background-color: black;
+    background-image: none;
+    border-radius: 70px;
+    position: absolute;
+    top: -350px;
 }
 .tailwind{
-    margin-top: -40px;
+    /* margin-top: -40px;
     margin-left: 850px;
+    background-image: none; */
+    position: absolute;
+    top: 615px;
+    left: 860px;
     background-image: none;
 }
 .back{
+    /* padding: 20px;
+    width: 400px;
+    background-color: white;
+    background-image: none;
+    border-radius: 70px;
+    margin-top: 175px ; */
     padding: 20px;
     width: 400px;
     background-color: white;
     background-image: none;
     border-radius: 70px;
+    position: absolute;
+    top:-350px;
 }
 .ground{
-    padding: 20px;
+    /* padding: 20px;
     width: 260px;
     background-color: black;
     background-image: none;
     border-radius: 70px;
-    margin-top:-40px;
+    margin-top:-175px; */
+    padding: 20px;
+    width: 240px;
+    background-color: black;
+    background-image: none;
+    border-radius: 70px;
+    position: absolute;
+    top: -350px;
 }
 .background{
-    margin-top: 330px;
+    /* margin-top: 330px;
     margin-left: 850px;
+    background-image: none; */
+    position: absolute;
+    top: 845px;
+    left: 860px;
     background-image: none;
 }
 .block{
+    /* padding: 20px;
+    width: 400px;
+    background-color: white;
+    background-image: none;
+    border-radius: 70px; */
     padding: 20px;
     width: 400px;
     background-color: white;
     background-image: none;
     border-radius: 70px;
+    position: absolute;
+    top:-350px;
 }
 .chain{
+    /* padding: 20px;
+    width: 100px;
+    background-color: black;
+    background-image: none;
+    border-radius: 70px;
+    margin-top:-40px; */
+    padding: 20px;
+    width: 175px;
+    background-color: black;
+    background-image: none;
+    border-radius: 70px;
+    position: absolute;
+    top: -350px;
+}
+
+.blockchain{
+    /* margin-top: -40px;
+    margin-left: 190px;
+    background-image: none; */
+    position: absolute;
+    top: 840px;
+    left: 180px;
+    background-image: none;
+}
+
+.web{
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+    background-image: none;
+    border-radius: 70px;
+    position: absolute;
+    top:-350px;
+}
+.development{
     padding: 20px;
     width: 100px;
     background-color: black;
     background-image: none;
     border-radius: 70px;
-    margin-top:-40px;
+    position: absolute;
+    top: -350px;
 }
-.blockchain{
-    margin-top: -40px;
-    margin-left: 190px;
+.webdevelopment{
+    position: absolute;
+    top: 1075px;
+    left: 180px;
+    background-image: none;
+}
+.techie{
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+    background-image: none;
+    border-radius: 70px;
+    position: absolute;
+    top:-350px;
+}
+.prolemsolve{
+    padding: 20px;
+    width: 260px;
+    background-color: black;
+    background-image: none;
+    border-radius: 70px;
+    position: absolute;
+    top: -350px;
+}
+.techieskills{
+    position: absolute;
+    top: 1075px;
+    left: 865px;
     background-image: none;
 }
 .artificial{
@@ -188,6 +302,18 @@ a:hover{
     background-image: none;
     font-family: "Roboto", sans-serif;
 }
+.htmlpercent{
+    position: absolute;
+    left: 575px;
+    top: 222px;
+    font-size: 22px;
+}
+.htmllevel{
+    position: absolute;
+    left: 190px;
+    top: 222px;
+    font-size: 18px;
+}
 .intelligence{
     margin-top:-40px;
     margin-left:300px;
@@ -196,21 +322,97 @@ a:hover{
     background-image: none;
     font-family: "Roboto", sans-serif;
 }
+.csspercent{
+    position: absolute;
+    left: 1250px;
+    top: 222px;
+    font-size: 22px;
+}
+.csslevel{
+    position: absolute;
+    left: 865px;
+    top: 222px;
+    font-size: 18px;
+}
 .hypertext{
-    margin-top:325px;
-    margin-left:-890px;
+    margin-top:185px;
+    margin-left:-910px;
     font-size: 35px;
     font-weight:bolder;
     background-image: none;
     font-family: "Roboto", sans-serif;
 }
+.jspercent{
+    position: absolute;
+    left: 575px;
+    top: 450px;
+    font-size: 22px;
+}
+.jslevel{
+    position: absolute;
+    left: 190px;
+    top: 450px;
+    font-size: 18px;
+}
 .markuplanguage{
     margin-top:-40px;
-    margin-left:525px;
+    margin-left:325px;
     font-size: 35px;
     font-weight:bolder;
     background-image: none;
     font-family: "Roboto", sans-serif;
+}
+.sqlpercent{
+    position: absolute;
+    left: 1250px;
+    top: 450px;
+    font-size: 22px;
+}
+.sqllevel{
+    position: absolute;
+    left: 870px;
+    top: 450px;
+    font-size: 18px;
+}
+.pycode{
+    margin-top:185px;
+    margin-left:-970px;
+    font-size: 35px;
+    font-weight:bolder;
+    background-image: none;
+    font-family: "Roboto", sans-serif;
+}
+.pythonpercent{
+    position: absolute;
+    left: 575px;
+    top: 680px;
+    font-size: 22px;
+}
+.pylevel{
+    position: absolute;
+    left: 190px;
+    top: 680px;
+    font-size: 18px;
+}
+.ps{
+    margin-top:-40px;
+    margin-left:565px;
+    font-size: 35px;
+    font-weight:bolder;
+    background-image: none;
+    font-family: "Roboto", sans-serif;
+}
+.pspercent{
+    position: absolute;
+    left: 1250px;
+    top: 680px;
+    font-size: 22px;
+}
+.pslevel{
+    position: absolute;
+    left: 870px;
+    top: 680px;
+    font-size: 18px;
 }
 .skills{
     margin-top:-650px;
@@ -220,6 +422,132 @@ a:hover{
     font-family: "Roboto", sans-serif;
     color: rgb(32, 32, 141);
 }
+
+.communicationskills{
+    position: absolute;
+    top:2850px;
+    left: 550px;
+    font-size: 35px;
+    font-weight:bolder;
+    background-image: none;
+    font-family: "Roboto", sans-serif;
+    color: rgb(32, 32, 141);
+}
+.listening{
+    margin-top: 1575px;
+    font-size: 30px;
+    font-weight:bolder;
+    margin-left: -550px;
+}
+.listeninglevel{
+    font-size: 21px;
+    margin-left: -555px;
+    margin-top: 15px;
+}
+.speaking{
+    margin-top: -75px;
+    font-size: 30px;
+    font-weight:bolder;
+    margin-left: 560px;
+}
+.speakinglevel{
+    font-size: 21px;
+    margin-left: 555px;
+    margin-top: 15px;
+}
+
+.reading{
+    margin-top: 200px;
+    font-size: 30px;
+    font-weight:bolder;
+    margin-left: -550px;
+}
+.readinglevel{
+    font-size: 21px;
+    margin-left: -555px;
+    margin-top: 15px;
+}
+.star3{
+    position: absolute;
+    left: 320px;
+    top: 3365px;
+}
+.writing{
+    margin-top: -75px;
+    font-size: 30px;
+    font-weight:bolder;
+    margin-left: 560px;
+}
+.writinglevel{
+    font-size: 21px;
+    margin-left: 555px;
+    margin-top: 15px;
+}
+.star4{
+    position: absolute;
+    left: 875px;
+    top: 3360px;
+}
+.star1{
+    position: absolute;
+    left: 320px;
+    top: 3090px;
+}
+.star2{
+    position: absolute;
+    left: 875px;
+    top: 3090px;
+}
+.star5{
+    position: absolute;
+    left: 320px;
+    top: 3925px;
+}
+.lifeskill{
+    position: absolute;
+    top:3650px;
+    left: 650px;
+    font-size: 35px;
+    font-weight:bolder;
+    background-image: none;
+    font-family: "Roboto", sans-serif;
+    color: rgb(32, 32, 141);
+}
+.selfawareness{
+    margin-top: 450px;
+    font-size: 27px;
+    font-weight:bolder;
+    margin-left: -550px;
+}
+.management{
+    margin-left: -550px;
+    font-size: 27px;
+    font-weight:bolder;
+}
+
+.adaptibity{
+    margin-top: -65px;
+    font-size: 27px;
+    font-weight:bolder;
+    margin-left: 525px;
+}
+.Learnings{
+    margin-left: 525px;
+    font-size: 27px;
+    font-weight:bolder;
+}
+.socialskills{
+    margin-top: 225px;
+    font-size: 27px;
+    font-weight:bolder;
+    margin-left: 0px;
+}
+.star6{
+    position: absolute;
+    left: 850px;
+    top: 3925px;
+}
+
 .project{
     margin-top: 400px;
     font-size: 35px;
@@ -231,20 +559,31 @@ a:hover{
     margin-top: 200px;
     border-radius: 20px;
 }
+.foodbook:hover{
+    scale:1.025;
+    transition: 0.4s;
+}
 .Explore{
 margin-left: 150px;
 margin-top: 200px;
 border-radius: 20px;
-
+}
+.Explore:hover{
+    scale:1.025;
+    transition: 0.4s;
 }
 .moviebook{
     margin-left: 150px;
     margin-top: 200px;
     border-radius: 20px;
 }
+.moviebook:hover{
+    scale:1.025;
+    transition: 0.4s;
+}
 .Machine{
     position: absolute;
-    top: 2700px;
+    top: 4500px;
 }
 .internet{
     position: absolute;
@@ -252,7 +591,19 @@ border-radius: 20px;
 }
 .program{
     position: absolute;
-    top: 1700px;
+    top: 1730px;
+}
+.allskills{
+    position: relative;
+    top: 1000px;
+}
+.commucicateskills{
+    position: absolute;
+    top: 2700px;
+}
+.lifestyleskills{
+    position: absolute;
+    top: 3500px;
 }
 .contact-container {
     margin-left: 800px;
