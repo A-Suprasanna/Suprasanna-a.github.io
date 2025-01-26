@@ -648,5 +648,39 @@ h4{
     margin-top: -80px;
     margin-left: 300px;
 }
-
-
+.Medicalweb{
+    text-decoration: none;
+    position: absolute;
+    left: 225px;
+    top: 5200px;
+    font-size: 22px;
+    color: black;
+}
+.Medicalweb:hover{
+    scale:1.025;
+    transition: 0.4s;
+}
+.expindia{
+    text-decoration: none;
+    position: absolute;
+    left: 685px;
+    top: 5200px;
+    font-size: 22px;
+    color: black;
+}
+.expindia:hover{
+    scale:1.025;
+    transition: 0.4s;
+}
+.moviebooks{
+    text-decoration: none;
+    position: absolute;
+    left: 1135px;
+    top: 5200px;
+    font-size: 22px;
+    color: black;
+}
+.moviebooks:hover{
+    scale: 1.025;
+    transition: 0.4s;
+}
